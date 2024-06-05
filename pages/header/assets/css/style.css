@@ -8,15 +8,124 @@ body{
     display: flex;
     flex-direction: column;
     height: 200vh;
-    width: 100vw; ;
     overflow-x: hidden;
+    padding: 10px;
 }
-header.pugdesign{
+header.pugdesign1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    & > img.LOGO1{
+        height: 50px;
+        margin-left: 1rem;
+    }
+    & >  nav{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        & > a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+        }
+    }
+}
+header.pugdesign2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    & > img.LOGO2{
+        height: 50px;
+        margin-left: 1rem;
+    }
+    & >  nav{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        & > a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+        }
+        & > .call_to_action{
+            border: 2px solid yellow;
+        }
+    }
+}
+header.pugdesign3{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #A67B5B;
-    & > img.LOGO{
+    & > img.LOGO3{
+        height: 50px;
+        margin-left: 1rem;
+    }
+    & >  nav{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        & > a,i{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+        }
+        & > .call_to_action{
+            border: 2px solid yellow;
+        }
+    }
+}
+header.pugdesign4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A67B5B;
+    & > img.LOGO4{
+        height: 50px;
+        margin-left: 1rem;
+        &:hover{
+            transform: scale(1.1);
+            transition: all 0.3s;
+            transform: rotateZ(720deg);
+        }
+    }
+    & >  nav{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        & > a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            transition: all 0.3s;
+            &:hover{
+                background-color:#543310 ;
+                color: white;
+            }
+        }
+
+    }
+}
+header.pugdesign5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A67B5B;
+    & > img.LOGO5{
         height: 50px;
         margin-left: 1rem;
         &:hover{
@@ -51,7 +160,7 @@ header.pugdesign{
         color: transparent;
     }
     &:hover {
-        & > img.LOGO {
+        & > img.LOGO5 {
            transform: rotateZ(720deg);
        }
 
