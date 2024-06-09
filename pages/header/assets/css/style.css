@@ -86,6 +86,71 @@ header.pugdesign3{
         }
     }
 }
+header.staticdesign1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    & > img.LOGO1{
+        height: 50px;
+        margin-left: 1rem;
+    }
+    & >  nav{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        & > a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+        }
+    }
+}
+header.staticdesign2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    & > img.LOGO1{
+        height: 50px;
+        margin-left: 1rem;
+    }
+    & >  nav{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        & > a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+        }
+    }
+    & > form{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        & > input{
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            border: 2px solid black;
+        }
+        & > button{
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            border: 2px solid black;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+    
+    }
+}
 header.pugdesign4{
     display: flex;
     justify-content: space-between;
@@ -169,4 +234,163 @@ header.pugdesign5{
            transform: translateX(0);
        }
 }
+}
+header.pugdesign8{
+   display: flex;
+   flex-direction: row;
+   background-color: black;
+   justify-content: space-between;
+   align-items: center;
+   transition: 2s;
+   & img{
+    height: 50px;
+        margin-left: 1rem;
+        transition: 1s;
+   }
+   & nav.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+    &:hover{
+        background-color:#ffffff ;
+        color: black;
+        box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+        -webkit-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+        -moz-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+    }
+   }
+  &:hover{
+    background-color: red;
+    background-blend-mode: color;
+    & img{
+        transform: rotateZ(720deg);
+    }
+  }
+}
+header.pugdesign9{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(66, 195, 51);
+    justify-content: space-between;
+    align-items: center;
+    transition: 2s;
+    & img{
+        height: 50px;
+        margin-left: 1rem;
+        transition: 1s;
+        &:hover{
+            transform: rotateZ(720deg);
+        }
+    }
+    & nav.nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        transition: all 0.3s;
+        &:hover{
+            background-color:#ffffff ;
+            color: black;
+            box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+            -webkit-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+            -moz-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+        }
+    }
+    & form{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        transition: all 0.3s;
+        & input{
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            border: 2px solid black;
+        }
+        & button{
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            border: 2px solid black;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+        &:hover{
+            transform: scale(1.1);
+            box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+            -webkit-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+            -moz-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+        }
+    }
+}
+header.pugdesign10{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(66, 195, 51);
+    justify-content: space-between;
+    align-items: center;
+    transition: 2s;
+    & img{
+        height: 50px;
+        margin-left: 1rem;
+        transition: 1s;
+        &:hover{
+            transform: rotateZ(720deg);
+        }
+    }
+    & nav.nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        transition: all 0.3s;
+        &:hover{
+            background-color:#ffffff ;
+            color: black;
+            box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+            -webkit-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+            -moz-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+        }
+    }
+    & form{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-right: 1rem;
+        & input{
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            border: 2px solid black;
+            font-style: italic;
+            transition: 0.5s;
+            &:hover{
+                background-color: rgb(255, 247, 0);
+                color: white;
+            }
+        }
+        & button{
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            border: 2px solid black;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+        &:hover{
+            transform: scale(1.1);
+            box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+            -webkit-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+            -moz-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+        }
+    }
+    &:hover{
+    
+    }
 }
