@@ -390,7 +390,52 @@ header.pugdesign10{
             -moz-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
         }
     }
-    &:hover{
-    
+}
+header.designvertical{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(66, 195, 51);
+    max-width: 6.5rem;
+    & img{
+        width: 5rem;
+        margin-left: 0.5rem;
+        transition: 1s;
+        &:hover{
+            box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+            -webkit-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+            -moz-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+        }
+    }
+    & nav.navigation a{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 0.5rem;
+        margin-top: 10rem;
+        transition: 1s;
+        &:hover{
+            background-color:#ffffff ;
+            color: black;
+            box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+            -webkit-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+            -moz-box-shadow: 21px 10px 5px 6px rgba(0,0,0,0.73);
+        }
+    }
+}
+.return{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    & a{
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 0.5rem;
     }
 }

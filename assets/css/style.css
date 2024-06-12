@@ -5,14 +5,27 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(../img/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);
+    background-image: url();
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
 }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
 section.container{
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
     height: 100vh;
     display: flex;
     row-gap: 1rem;

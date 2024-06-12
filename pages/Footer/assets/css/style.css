@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+footer.design1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    & img{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+    & ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        & li{
+            margin: 5px;
+            & a{
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+}
+footer.design2{
+    background-color: rgb(58, 57, 57);
+    padding-top: 1rem;
+    
+    & .footer-content2{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        & i{
+            font-size: 30px;
+            margin: 10px;
+        }
+    }
+    & .service{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1rem;
+        & a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin: 10px;
+        }
+    }
+    & .trademark{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        & p{
+            margin: 10px;
+            color: white;
+        }
+    }
+}
+footer.design3{
+    background-color: rgb(53, 51, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & .site{
+        color: white;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    & .services{
+        margin-bottom: 0.5rem;
+        & a{
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            margin: 10px;
+        }
+    }
+    & .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        & i{
+            font-size: 30px;
+            color: tomato;
+            margin: 10px;
+        }
+    }
+    & .trademark{
+        & p{
+            margin: 10px;
+            color: white;
+        }
+    }
+}
+footer.design4{
+    background-color: rgb(53, 51, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & .footer-content4{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        & h1{
+            margin: 10px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+        & p{
+            margin: 10px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+    }
+   & .links{
+    display: flex;
+    gap: 10px;
+    & i{
+        font-size: 30px;
+        color: greenyellow;
+        margin: 10px;
+    }
+   }
+}
+footer.design5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 51, 51);
+    color: white;
+    & .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        & h2{
+            margin: 10px;
+            color: tomato;
+        }
+    }
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem;
+    background-color: black;
+    & i{
+        font-size: 15px;
+        color: white;
+    }
+    & p{
+        color: white;
+    }
+    & h3{
+        text-decoration: none;
+        color: white;
+    }
+}
+footer.footerdesign1{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(72, 69, 69);
+color: white;
+padding: 10px;
+& .logopic img{
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin: 10px;
+}
+.logoname h1{
+        margin: 10px;
+        transition: 1s;
+        &:hover{
+            color: black;
+        }
+}
+& .icons{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    & i{
+        font-size: 30px;
+        margin: 10px;
+        transition: 1s;
+        &:hover{
+            color: black;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        }
+    }
+}
+}
+footer.animateddesign2{
+    background-color: rgb(58, 57, 57);
+    padding-top: 1rem;
+    & .animated-footer-content2{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+        & i{
+            font-size: 30px;
+            margin: 10px;
+            transition: 1.5s;
+            &:hover{
+               transform: rotateY(720deg);
+               color: black;
+            }
+        }
+    }
+    & .animatedservice{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1rem;
+        & a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin: 10px;
+        }
+    }
+    & .animatedtrademark{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        & p{
+            margin: 10px;
+            color: white;
+        }
+    }
+}
+footer.animateddesign3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(62, 137, 73);
+    color: white;
+    padding: 10px;
+    gap: 5rem;
+    & .content{
+        display: flex;
+        flex-direction: column;
+        & a{
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+    & .animatedlogo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & img{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            transition: 1s;
+            border: 1px solid white;
+            border-radius: 20%;
+            &:hover{
+                box-shadow: 19px 33px 15px 15px rgba(0,0,0,0.81);
+                -webkit-box-shadow: 19px 33px 15px 15px rgba(0,0,0,0.81);
+                -moz-box-shadow: 19px 33px 15px 15px rgba(0,0,0,0.81);
+            }
+        }
+        & h1{
+            transition: 1s;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+    & .content2{
+        display: flex;
+        flex-direction: column;
+        & a{
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}
+footer.animateddesign4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(134, 25, 188);
+    color: white;
+    padding: 10px;
+    gap: 5rem;
+    & .developername{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & h1,h2{
+            transition: 1.5s;
+            &:hover{
+                color: black;
+                transform: rotateY(360deg);
+            }
+        }
+    }
+    & .infos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        & a{
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: 1s;
+            &:hover{
+                color: black;
+                border: 1px solid white;
+            border-radius: 10%;
+            padding: .3rem;
+            box-shadow: 24px 8px 26px 2px rgba(0,0,0,0.77);
+-webkit-box-shadow: 24px 8px 26px 2px rgba(0,0,0,0.77);
+-moz-box-shadow: 24px 8px 26px 2px rgba(0,0,0,0.77);
+            }
+        }
+    }
+    & .animatedsocials{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        & i{
+            font-size: 30px;
+            gap: 2rem;
+            transition: 1s;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}
+footer.animateddesign5{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(12, 125, 14);
+    color: white;
+    & .logoname5{
+        & h1{
+            font-size: 2rem;
+            transition: 1s;
+            &:hover{
+               transform: rotateY(360deg);
+            }
+        }
+    }
+    & img{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        transition: 4s;
+        &:hover{
+            transform: rotateY(720deg);
+        }
+    }
+    & .icons5{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        & i{
+            font-size: 30px;
+            transition: 1s;
+            &:hover{
+                color: orangered;
+                transform: rotateY(360deg);
+            }
+        }
+    }
+}
+.goback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    & a{
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 0.5rem;
+    }
+}
+
