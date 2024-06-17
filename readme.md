@@ -12,14 +12,14 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This repository will provide examples of header and footer designs you can see here how to make simple headers and footers design
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://github.com/Royce012004)
 
 ---
 
@@ -83,7 +83,7 @@ The purpose of this website is to feature how to use and make a header and foote
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-Seatwork3
 └─ assets
 |   └─ css
 |   |   └─ style.css
@@ -92,7 +92,7 @@ WD-ProjectName
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ header/footer
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
