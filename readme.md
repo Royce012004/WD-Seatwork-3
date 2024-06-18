@@ -110,4 +110,5 @@ WD-Seatwork3
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| celtics logo | used the celtics logo for footer design |(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cleanpng.com%2Fpng-washington-wizards-vs-boston-celtics-nba-chicago-b-6306891%2F&psig=AOvVaw24wHW-3uCP8pXDMG89gPzQ&ust=1718774044665000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKiazbSy5IYDFQAAAAAdAAAAABAE) |
+| spurs logo logo | used the spurs logo logo for footer design |https://www.google.com/url?sa=i&url=https%3A%2F%2Fsports.yahoo.com%2Fnba%2Fteams%2Fsan-antonio%2F&psig=AOvVaw3fGWHn-Z4PlrkuUF_GiHq0&ust=1718774134899000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLjux9-y5IYDFQAAAAAdAAAAABAE |
