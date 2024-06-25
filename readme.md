@@ -19,7 +19,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![]([https://github.com/Royce012004](https://github.com/Royce012004/WD-Seatwork-3))
+![](https://visit-counter.vercel.app/counter.png?page=Royce012004/WD-Seatwork-3)
 
 ---
 
